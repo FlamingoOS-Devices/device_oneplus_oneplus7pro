@@ -14,10 +14,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 3120
-TARGET_SCREEN_WIDTH := 1440
-
 # Camera
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
@@ -43,4 +39,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7pro/oneplus7pro-vendor.mk)
