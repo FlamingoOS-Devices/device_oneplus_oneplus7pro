@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "OPlusFrameworksResTarget",
+    name: "OPlus7ProFrameworks",
     vendor: true,
 }

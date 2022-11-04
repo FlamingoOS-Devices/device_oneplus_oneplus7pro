@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "OPlusSettingsProviderResTarget",
+    name: "OPlus7ProSystemUI",
     vendor: true,
 }

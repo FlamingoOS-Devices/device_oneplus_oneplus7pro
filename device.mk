@@ -19,14 +19,14 @@ PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
-    OPlusFrameworksResTarget \
-    OPlusSettingsProviderResTarget \
-    OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    AlertSliderOverlay \
+    FlamingoOPlus7ProFrameworks \
+    FlamingoOPlus7ProSystemUI \
+    OPlus7ProFrameworks \
+    OPlus7ProSettingsProvider \
+    OPlus7ProSettings \
+    OPlus7ProSystemUI
 
 # Shipping API
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
