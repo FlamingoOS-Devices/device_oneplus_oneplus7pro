@@ -14,6 +14,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml
 
+# Bluetooth
+PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.device.default_name=OnePlus 7 Pro
+
 # Camera
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
