@@ -24,13 +24,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AlertSliderOverlay \
     FlamingoOPlus7ProFrameworks \
     FlamingoOPlus7ProSystemUI \
     OPlus7ProFrameworks \
     OPlus7ProSettingsProvider \
     OPlus7ProSettings \
-    OPlus7ProSystemUI
+    OPlus7ProSystemUI \
+    OplusHwManagerOverlay
 
 # Inherit OnePlus firmware
 $(call inherit-product, vendor/oneplus/firmware/Android.mk)
