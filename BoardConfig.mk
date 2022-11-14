@@ -12,9 +12,6 @@ DEVICE_PATH := device/oneplus/oneplus7pro
 # Display
 TARGET_SCREEN_DENSITY := 560
 
-# Firmware
--include vendor/oneplus/firmware/BoardConfigVendor.mk
-
 # Sensors
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 1000
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 260

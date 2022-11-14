@@ -32,9 +32,6 @@ PRODUCT_PACKAGES += \
     OPlus7ProSystemUI \
     OplusHwManagerOverlay
 
-# Inherit OnePlus firmware
-$(call inherit-product, vendor/oneplus/firmware/Android.mk)
-
 # Shipping API
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
